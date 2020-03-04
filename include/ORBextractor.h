@@ -24,7 +24,7 @@
 
 #include <vector>
 #include <list>
-#include <opencv/cv.h>
+#include <opencv2/core.hpp> // 2020.03.01 add
 #include <opencv2/core/cuda.hpp>
 #include <opencv2/cudafilters.hpp>
 #include <cuda/Fast.hpp>

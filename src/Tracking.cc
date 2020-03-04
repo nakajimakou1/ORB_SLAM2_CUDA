@@ -19,6 +19,7 @@
 */
 
 #include <unistd.h>
+#include <opencv2/imgproc/types_c.h>  // 2020.03.01 add
 
 #include "Tracking.h"
 

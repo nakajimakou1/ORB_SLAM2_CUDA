@@ -25,6 +25,7 @@
 #include <opencv2/highgui/highgui.hpp>
 
 #include<mutex>
+#include <opencv2/imgproc/types_c.h>  // 2020.03.01 add
 
 namespace ORB_SLAM2
 {

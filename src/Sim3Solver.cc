@@ -29,6 +29,7 @@
 #include "ORBmatcher.h"
 
 #include "Thirdparty/DBoW2/DUtils/Random.h"
+#include <opencv2/core/core_c.h>  // 2020.03.01 add
 
 namespace ORB_SLAM2
 {

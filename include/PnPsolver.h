@@ -52,6 +52,7 @@
 #define PNPSOLVER_H
 
 #include <opencv2/core/core.hpp>
+#include "opencv2/core/types_c.h" // 2020.03.01 add
 #include "MapPoint.h"
 #include "Frame.h"
 
