@@ -47,6 +47,7 @@ int main(int argc, char **argv)
 {
     ros::init(argc, argv, "Mono");
     ros::start();
+    bool bUseViewer;
 
     if(argc == 3)
     {
@@ -60,7 +61,7 @@ int main(int argc, char **argv)
         return 1;
     }    
 
-    bool bUseViewer;
+    //bool bUseViewer;
     stringstream ss(argv[3]);
     ss >> boolalpha >> bUseViewer;
     
